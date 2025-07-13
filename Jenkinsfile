@@ -21,7 +21,7 @@ pipeline {
       stage("package"){
           steps{
               echo 'Packaging sysfoo app'
-              sh 'mvn pacakage -DskipTests'
+              sh 'mvn package -DskipTests'
           }
       }
   }
